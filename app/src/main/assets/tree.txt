@@ -1,0 +1,64 @@
+{
+  "postdetails": {
+    "item": [
+      {
+        "userid": "ehp1",
+        "id":"1",
+        "body":"bvghvggv",
+        "title": "Home"
+      },
+      {
+        "userid": "ehp2",
+        "id":"2",
+        "body":"bvghvggv",
+        "title": "Welcome!",
+         "item": [
+                  {
+                    "postid": "2",
+                    "id":"1",
+                    "name":"lima",
+                    "email":"bnmbm",
+                    "body":"nbmbn",
+                    "title": "Systems"
+                  }]
+      },
+      {
+        "userid": "ehp3",
+        "id":"3",
+        "body":"bvghvggv",
+        "title": "Login"
+      },
+      {
+        "userid": "ehp4",
+        "id":"4",
+         "body":"bvghvggv",
+        "title": "Computer Engineering",
+        "item": [
+          {
+            "postid": "4",
+            "id":"1",
+            "name":"lima",
+            "email":"bnmbm",
+            "body":"nbmbn",
+            "title": "Embedded Systems"
+          },
+          {
+            "postid": "4",
+            "id":"1",
+           "name":"lima",
+            "email":"bnmbm",
+            "body":"nbmbn",
+            "title": "Computer Architecture"
+          }
+        ]
+      },
+      {
+        "userid": "ehp9",
+        "id":"2",
+         "body":"bvghvggv",
+        "title": "Software Engineering"
+
+      }
+    ]
+  }
+}

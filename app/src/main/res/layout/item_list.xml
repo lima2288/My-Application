@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutHolder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f5f7"
+    android:padding="6dp">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#479DCA"
+    android:id="@+id/relative">
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="title"
+        android:layout_marginLeft="0dp"
+        android:paddingLeft="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="0dp"/>
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="id"
+        android:padding="1dp"
+        android:paddingTop="1dp"
+        />
+</RelativeLayout>
+    <TextView
+        android:id="@+id/textViewUserId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="second"
+        android:layout_below="@+id/relative"
+       android:paddingTop="5dp"
+        android:textSize="13dp"/>
+
+    <TextView
+        android:id="@+id/textViewBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="fourth gfgcgchggghghghghggcccgcfchcghgghdfhdfshdhfvhvdhgvchgghcxghscghxchgcxgcxhgcg"
+        android:layout_below="@+id/textViewUserId"
+        android:paddingTop="5dp"
+        android:layout_gravity="center_horizontal|center"
+        android:textAlignment="gravity"
+        android:textSize="13dp"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>

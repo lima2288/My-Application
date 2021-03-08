@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    android:background="@color/colorWhite"
+    tools:context="com.myapplication.postexpandedlist.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/postVal"
+        android:visibility="gone"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/commentsVal"
+        android:visibility="gone"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="Loading..."
+        android:textSize="20dp"
+        android:textStyle="bold"
+       android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorPrimaryDark"></TextView>
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorWhite"
+        android:padding="16dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:visibility="gone"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layoutNavHolder"
+        android:layout_below="@+id/textViewLabel"
+        android:layout_marginBottom="2dp"
+        android:scrollbars="vertical" />
+
+    <RelativeLayout
+        android:id="@+id/layoutNavHolder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGrey"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/imageViewLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_keyboard_arrow_left_white_48dp" />
+
+        <ImageView
+            android:id="@+id/imageViewRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_keyboard_arrow_right_white_48dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
